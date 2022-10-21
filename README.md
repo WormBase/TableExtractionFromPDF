@@ -12,10 +12,9 @@ Function:
 - All pandas dataframes are saved as tsv files locally
 
 Run it like this:
-python ~/path/TableExtractionFromPDF/pdf_table_extraction.py -i WBPaper00030864_Andersen07.pdf -p WBPaper00030864 -o ~/Desktop/Table_OUT
+python pdf_table_extraction.py -i Example/WBPaper00046820_Thompson15.pdf -p WBPaper00046820 -o Example -b textract-console-eu-west-2-21d8e897-7155-4abd-bd05-54d63c21695b 
 
-running with -h will show options
-
+running with -h will show options and definitions
 
 
 
@@ -23,6 +22,15 @@ Configuration
 
 To run this script, you have to have an AWS user, who has been authorised to use the AWS textract service. You also need access to an S3 bucket to store files in temporarily.
 
-The script uses a range of Python modules, and the software "poplar".
+The script uses a range of Python modules. The file Requirements.txt lists the external Python packages required to run it.
+
+
+
+
+Scripts: 
+pdf_table_extraction.py  -  runnable which wraps the other commands
+tablex/pdf2image_runner.py - PDF to image conversion
+tablex/text_extraction_AWS.py - subroutines for uploading to s3, text extraction and output parsing
+tablex/text_extraction_AWS_multip.py - non-functional script, which could be developed if parallell processing was needed. Typically, processing a single paper only takes a few seconds, but the option is there to cut processing times if needed.
 
 

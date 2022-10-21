@@ -1,0 +1,13 @@
+	Data set	PI	Type	Platform	[SIP]E, length (bp)	Insert size	Clones/total bases in reads	Coverage expected (%)
+0	Princeton University	Andersen	DNA	Illumina	PE 104, 104	321 bp	34,711,778/7,220,049,824	69.52X (96.6)
+1	University of Washington	Waterston	DNA	Illumina	PE 76, 76	179 bp	21,252,827/3,230,429,704	31.10X (96.6)
+2	(Thompson et al. 2013)							
+3	Technion	Yanai	DNA	Illumina	PE 100,1 100	221 bp	79,406,930/15,881,386,000	80.08X (50.6)
+4	University of Zurich	Hajnal	DNA	Illumina	PE 101,101	484 bp	825,754/166,799,884	1.41X (84.9)
+5	University of Zurich	Hajnal	DNA	SOLID	PE 50, 35	124 bp	15,760,405/2,679,268,850	7.20X (26.9)
+6	University of British Columbia	Moerman	DNA	Sanger	PE ~770 bp	~33 kbp	15,360/20,520,434	0.20X (97.2)
+7	(Perkins 2010)							
+8	Washington University (Wicks et al. 2001)	Waterston	DNA	Sanger	SE ~764 bp	NA	11,541/8,843,526	0.07X (81.7)
+9	Wageningen University/	Kammenga/	DNA (ILs/RILs)	SOLiD	SE 50	NA	2,709,932,329/135,496,616,450	766.85x (56.8)
+10	University of Liverpool	Cossins						
+11	Total DNA							956.43X
