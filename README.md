@@ -20,7 +20,7 @@ running with -h will show options and definitions
 
 Configuration
 
-To run this script, you have to have an AWS user, who has been authorised to use the AWS textract service. You also need access to an S3 bucket to store files in temporarily.
+To run this script, you have to have an AWS IAM user, who has been authorised to use the AWS textract service. You also need access to an S3 bucket to store files in temporarily. Here are some specific instructions if you are new to AWS Services: https://docs.aws.amazon.com/textract/latest/dg/getting-started.html. You can process 100 pages free of charge/month, but the script will cost a few pennies to run for the s3 usage.
 
 The script uses a range of Python modules. The file Requirements.txt lists the external Python packages required to run it.
 
